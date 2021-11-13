@@ -1,0 +1,32 @@
+.color-theme{
+    /*
+    background-color: royalblue;
+    color: white;
+    */
+    /* light mode
+    background-color: #ededed;
+    color: #333333;
+    */
+
+    background-color: #DDDDDD;
+    color: #373d48;
+
+}
+button.color-theme{
+    color: #373d48;
+    border-color: #DDDDDD;
+}
+button.color-theme:hover {
+    color: #373d48;
+    background-color: #DDDDDD;
+}
+button.color-theme:focus {
+    color: #373d48;
+    background-color: #DDDDDD;
+    border-color: #DDDDDD;
+    box-shadow: 0 0 0 0.25rem rgba(dd, dd, dd, 0.5);
+  }
+  button.color-theme:disabled {
+    color: #373d48;
+    background-color: #DDDDDD;
+  }
