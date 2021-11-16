@@ -1,24 +1,11 @@
 <?xml version="1.0"?>
 <page>
     <person>
-        <name>aaa</name>
-        <surname>bb</surname>
-        <dob>01011970</dob>
-        <phone>123123123</phone>
-        <mail></mail>
+        <name>Tomasz</name>
+        <surname>Bartnik</surname>
+        <dob>08 FEB 2000</dob>
+        <phone>781 320 367</phone>
+        <mail>tomasz.longin.bartnik@gmail.com</mail>
+        <website>http://tomasz.longin.bartnik.com.pl/HOME/</website>
     </person>
-    <content>
-        <container>
-            <title></title>
-            <text></text>
-            <container-sm>
-                <title></title>
-                <text></text>
-            </container-sm>
-            <container-sm>
-                <title></title>
-                <text></text>
-            </container-sm>
-        </container>
-    </content>
 </page>
