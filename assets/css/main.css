@@ -30,3 +30,13 @@ button.color-theme:focus {
     color: #373d48;
     background-color: #DDDDDD;
   }
+a{
+    color: #373d48;
+    text-decoration: none;
+}
+a:hover{
+    color: #2b6096;
+}
+.content-box{
+    background-color: white;
+}

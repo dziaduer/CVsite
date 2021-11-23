@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <page>
     <person>
+        <profile>assets/images/profile.jpg</profile>
         <name>Tomasz</name>
         <surname>Bartnik</surname>
         <dob>08 FEB 2000</dob>
@@ -8,4 +9,91 @@
         <mail>tomasz.longin.bartnik@gmail.com</mail>
         <website>http://tomasz.longin.bartnik.com.pl/HOME/</website>
     </person>
+    <section>
+        <title>Introduction 📋</title>
+        <html>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+        </html>
+    </section>
+    <section>
+       <title>Work Experience </title>
+       <html>
+            
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+       </html>
+        <subsection>
+                <title>My current job</title>
+                <html>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                    <ul>
+                        <li>Doing important stuff people do at work</li>
+                        <li>Not f* around</li>
+                        <li>Being an employee of the month every month</li>
+                    </ul>
+                </html>
+        </subsection>
+        <subsection>
+            <title>My previous job</title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li>Doing important stuff people do at work</li>
+                    <li>Not f* around</li>
+                    <li>Being an employee of the month every month</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>My first job</title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li>Doing important stuff people do at work</li>
+                    <li>Not f* around</li>
+                    <li>Being an employee of the month every month</li>
+                    <li>Waka waka, eh eh</li>
+                    <li>Tsamina mina zangalewa</li>
+                    <li>This time for Africa</li>
+                </ul>
+            </html>
+        </subsection>
+    </section>
+    <section>
+        <title>Education 📑</title>
+        <html>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+        </html>
+    </section>
+    <section>
+        <title>Languages 🌐</title>
+        <html>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+        </html>
+        <subsection>
+            <title>Polish 🇵🇱</title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li>Doing important stuff people do at work</li>
+                    <li>Not f* around</li>
+                    <li>Being an employee of the month every month</li>
+                    <li>Waka waka, eh eh</li>
+                    <li>Tsamina mina zangalewa</li>
+                    <li>This time for Africa</li>
+                </ul>
+            </html>
+        </subsection>
+    </section>
+    <section>
+        <title>Technical skills and tools utilization</title>
+        <html>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+        </html>
+    </section>
+    <section>
+        <title>Additional information</title>
+        <html>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+        </html>
+    </section>
 </page>

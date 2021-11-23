@@ -58,7 +58,7 @@ for (let flag of flags) {
                 break;
         }
     }
-    console.log('Changed "' + text + " to " + str);
+    console.log('INFO Changed "' + text + '" to ' + str);
     flag.innerHTML = str;
 }
 
