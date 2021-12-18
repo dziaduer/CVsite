@@ -7,79 +7,79 @@
         <dob>08 FEB 2000</dob>
         <phone>781 320 367</phone>
         <mail>tomasz.longin.bartnik@gmail.com</mail>
-        <website>http://tomasz.longin.bartnik.com.pl/HOME/</website>
+        <website>tomasz.longin.bartnik.com.pl</website>
     </person>
     <section>
-        <title>Introduction 📋</title>
+        <title>Introduction</title>
         <html>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+            <p>I think experience is best gained through practice. While my previous employment was based on customer service, I sepent my free time developing skills in eweb design and coding. Now I'm looking for employment that will be a gateway to the IT world, will properly utilize my abilities and allow for both professional and personal growth.</p>
         </html>
     </section>
     <section>
-       <title>Work Experience </title>
+       <title>Work Experience</title>
        <html>
-            
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
        </html>
         <subsection>
-                <title>My current job</title>
+                <title><img src='https://anixe.pl/images/logo_dark.svg'  style='height: 20px; margin-bottom: 3px; background-color: white; border: 3px solid white; border-radius: 5px'></img><b> IT Service Desk Specialist at ANIXE Sp. z o.o.</b> OCT 2021 - TODAY</title>
                 <html>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
-                    <ul>
-                        <li>Doing important stuff people do at work</li>
-                        <li>Not f* around</li>
-                        <li>Being an employee of the month every month</li>
-                    </ul>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?
+                        <ul>
+                            <li>Doing important stuff people do at work</li>
+                            <li>Not f* around</li>
+                            <li>Being an employee of the month every month</li>
+                        </ul>
+                    </p>
                 </html>
         </subsection>
         <subsection>
-            <title>My previous job</title>
+            <title><img src='https://grunwald24.pl/wp-content/themes/grunwald24/static/gfx/logo.svg'  style='height: 22px; margin-bottom: 3px; background-color: white; border: 3px solid white; border-radius: 5px'></img><b> Printer at Grunwald24 S.C.</b> OCT 2020 - OCT 2021</title>
             <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
                 <ul>
-                    <li>Doing important stuff people do at work</li>
-                    <li>Not f* around</li>
-                    <li>Being an employee of the month every month</li>
+                    <li>Printing, plotting and related activities;</li>
+                    <li>Working long shifts;</li>
+                    <li>Customer service.</li>
                 </ul>
             </html>
         </subsection>
         <subsection>
-            <title>My first job</title>
+            <title><img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' style='height: 22px; border: 3px solid white; border-radius: 5px'></img><b> Insurance agent at InterRisk TU S.A. VIG</b> JUN 2019 - OCT 2020</title>
             <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
                 <ul>
-                    <li>Doing important stuff people do at work</li>
-                    <li>Not f* around</li>
-                    <li>Being an employee of the month every month</li>
-                    <li>Waka waka, eh eh</li>
-                    <li>Tsamina mina zangalewa</li>
-                    <li>This time for Africa</li>
+                    <li>Preparation and distribution of offers;</li>
+                    <li>Customer acquisition and service;</li>
+                    <li>Conclusion of insurance contracts</li>
                 </ul>
             </html>
         </subsection>
     </section>
     <section>
-        <title>Education 📑</title>
-        <html>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
-        </html>
+        <title>Education</title>
+        <html> </html>
+            <subsection>
+                <title><b>Public High school No. II in Opole</b> SEP 2016 - MAY 2019</title>
+                <html>
+                    <ul>
+                        <li>Maturity diploma with advanced maths, physics and English.</li>
+                    </ul>
+                </html>
+            </subsection>
     </section>
     <section>
-        <title>Languages 🌐</title>
+        <title>Languages</title>
         <html>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
         </html>
         <subsection>
-            <title>Polish 🇵🇱</title>
+            <title>🇵🇱<b> Polish </b>Native</title>
+        </subsection>
+        <subsection>
+            <title>🇬🇧<b> English </b>Advanced C1</title>
             <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
                 <ul>
-                    <li>Doing important stuff people do at work</li>
-                    <li>Not f* around</li>
-                    <li>Being an employee of the month every month</li>
-                    <li>Waka waka, eh eh</li>
-                    <li>Tsamina mina zangalewa</li>
-                    <li>This time for Africa</li>
+                    <li>Fluent in speaking and writing;</li>
+                    <li>Advanced maturity exam: 98%;</li>
+                    <li>B2+ exam at SPNJO of Wrocław University, grade: A.</li>
                 </ul>
             </html>
         </subsection>
@@ -94,6 +94,19 @@
         <title>Additional information</title>
         <html>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+        </html>
+    </section>
+    <section>
+        <html>
+            <p><i>I hereby consent to my personal data
+                included in this CV being processed
+                for recruitment purposes by ANIXE
+                Polska sp. z o.o. having its registered
+                seat in Wrocław, at ul. Grabiszyńska
+                251A, 53-234 Wrocław (Poland) and
+                ANIXE Technology HELLAS Single
+                Member PC, 115 Kifisias Avenue,
+                115 24 (Greece).</i></p>
         </html>
     </section>
 </page>

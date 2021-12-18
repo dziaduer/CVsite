@@ -1,3 +1,20 @@
+
+
+function getParameter(parameterName){
+  let parameters = new URLSearchParams( window.location.search );
+  return parameters.get(parameterName);
+}
+
+var darkMode;
+  if(getParameter('darkMode') == 'true'){
+    darkMode = true;
+  }
+  else{
+    darkMode = false;
+  }
+
+
+
 function copyToClipboard(id) {
     /* Get the text field */
     var copyText = document.getElementById(id);

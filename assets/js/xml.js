@@ -1,4 +1,5 @@
 let xmlContent = '';
+if(darkMode == false){
 fetch('assets/content-en.xml').then((response) => {
     response.text().then((xml) => {
         xmlContent = xml;
@@ -88,14 +89,14 @@ fetch('assets/content-en.xml').then((response) => {
         for (let sectionXML of sectionsXML) {
             let j = 0;
             let sectionBox = document.createElement('div');
-            sectionBox.className = "flex-column my-3 mx-xxl-5 p-0 rounded content-box";
+            sectionBox.className = "my-3 p-0 mx-xxl-5 rounded content-box";
             let children = sectionXML.childNodes;
 
             let sectionButton = document.createElement('div');
             let sectionContent = document.createElement('div');
 
             sectionContent.id = "section" + i;
-            sectionContent.className = "collapse p-2";
+            sectionContent.className = "px-2";
             sectionBox.appendChild(sectionButton);
             sectionBox.appendChild(sectionContent);
 
@@ -104,10 +105,12 @@ fetch('assets/content-en.xml').then((response) => {
                     case 'html':
                         let htmlContent = document.createElement('div')
                         htmlContent.innerHTML = child.innerHTML;
+                        htmlContent.className = "py-1";
                         sectionContent.appendChild(htmlContent);
                         break;
                     case 'title':
-                        sectionButton.innerHTML = "<button type='button' class='btn btn-light w-100 m-0 color-theme' data-bs-toggle='collapse' data-bs-target='#section" + i + "'><p class='h5 m-1 float-start'>" + child.innerHTML + "</p>"
+                        sectionContent.className = "collapse px-2";
+                        sectionButton.innerHTML = "<button type='button' class='btn btn-light w-100 color-theme'  data-bs-toggle='collapse' data-bs-target='#section" + i + "'><p class='h5 m-1 float-lg-start'>" + child.innerHTML + "</p>"
                         console.log("INTO Changed section title");
                         break;
                     case 'subsection':
@@ -120,7 +123,7 @@ fetch('assets/content-en.xml').then((response) => {
                         let subContent = document.createElement('div');
 
                         subContent.id = "subsection" + i + "-" + j;
-                        subContent.className = "collapse p-2";
+                        subContent.className = "collapse";
                         subBox.appendChild(subButton);
                         subBox.appendChild(subContent);
                         for (let subChild of subChildren) {
@@ -128,10 +131,11 @@ fetch('assets/content-en.xml').then((response) => {
                                 case 'html':
                                     let htmlContent = document.createElement('div')
                                     htmlContent.innerHTML = subChild.innerHTML;
+                                    htmlContent.className = "pb-1 mx-2";
                                     subContent.appendChild(htmlContent);
                                     break;
                                 case 'title':
-                                    subButton.innerHTML = "<button type='button' class='btn btn-light btn-sm w-100 my-1 color-theme' data-bs-toggle='collapse' data-bs-target='#subsection" + i + "-" + j + "'><p class='m-1 float-start'>" + subChild.innerHTML + "</p>"
+                                    subButton.innerHTML = "<button type='button' class='btn btn-light btn-sm w-100 mb-2 color-theme' data-bs-toggle='collapse' data-bs-target='#subsection" + i + "-" + j + "'><p class='h6 m-1 float-lg-start'>" + subChild.innerHTML + "</p>"
                                     console.log("INFO Changed subsection title");
                                     break;
                             }
@@ -146,7 +150,12 @@ fetch('assets/content-en.xml').then((response) => {
             content.appendChild(sectionBox);
             i++;
         }
+
+        let footersXML = xmlDOM.getElementsByTagName("footer");
+        for (let footerXML of footersXML){
+
+        }
     });
 });
-
+}
 
