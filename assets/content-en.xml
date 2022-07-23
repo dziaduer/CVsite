@@ -5,59 +5,89 @@
         <name>Tomasz</name>
         <surname>Bartnik</surname>
         <dob>08 FEB 2000</dob>
-        <phone>781 320 367</phone>
+        <phone>+48 781 320 367</phone>
         <mail>tomasz.longin.bartnik@gmail.com</mail>
-        <website>tomasz.longin.bartnik.com.pl</website>
+        <residence>Wrocław</residence>
+        <marital>Single</marital>
     </person>
     <section>
         <title>Introduction</title>
         <html>
-            <p>I think experience is best gained through practice. While my previous employment was based on customer service, I sepent my free time developing skills in eweb design and coding. Now I'm looking for employment that will be a gateway to the IT world, will properly utilize my abilities and allow for both professional and personal growth.</p>
+            <p>I believe experience is best gained through practice. I have joined the work force right after graduation, trying to find a path best suited to my abilities. While I feel comfortable working in customer service, I have found my biggest strengths to be in the technical field. I'm looking for employment that will properly utilize my abilities and will allow for both professional and personal growth, appreciate innovation and extra effort.</p>
         </html>
     </section>
     <section>
        <title>Work Experience</title>
        <html>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
        </html>
         <subsection>
-                <title><img src='https://anixe.pl/images/logo_dark.svg'  style='height: 20px; margin-bottom: 3px; background-color: white; border: 3px solid white; border-radius: 5px'></img><b> IT Service Desk Specialist at ANIXE Sp. z o.o.</b> OCT 2021 - TODAY</title>
+                <title><img src='https://anixe.pl/images/logo_dark.svg' class='logo-class'  style='height: 20px; margin-bottom: 3px;'></img><b> ANIXE Sp. z o.o.</b> • OCT 2021 - TODAY</title>
                 <html>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?
+                    <p>IT Service Desk Specialist
                         <ul>
-                            <li>Doing important stuff people do at work</li>
-                            <li>Not f* around</li>
-                            <li>Being an employee of the month every month</li>
+                            <li>Working night shifts &amp; long shift hours, remote or in office</li>
+                            <li>Responsible for providing the 1st line of support for distributed applications</li>
+                            <li>Live services monitoring, issue escalation accoring to available documentation, including past incidents</li>
+                            <li>Complex client service and incident management under SLA's deadlines</li>
+                            <li>Log files collection and root cause analysis</li>
+                            <li>Making Rest API request queries, </li>
+                            <li>Regression testing of web applications</li>
+                            <li>Meeting PCI standards in incident management</li>
+                            <li>Creating component tests, test procedure automation, webhook integration</li>
+                            <li>Documentation: Writing instructions for newly implemented tools or new procedures, composing incident reports</li>
+                            <li>Working with static geographic data</li>
+                            <li>Creating scripting tools for job automation, data aggregation and analysis</li>
                         </ul>
+                        Some other stuff        
                     </p>
                 </html>
         </subsection>
         <subsection>
-            <title><img src='https://grunwald24.pl/wp-content/themes/grunwald24/static/gfx/logo.svg'  style='height: 22px; margin-bottom: 3px; background-color: white; border: 3px solid white; border-radius: 5px'></img><b> Printer at Grunwald24 S.C.</b> OCT 2020 - OCT 2021</title>
+            <title><img src='https://grunwald24.pl/wp-content/themes/grunwald24/static/gfx/logo.svg' class='logo-class'  style='margin-bottom: 3px;'></img><b> Grunwald24 S.C.</b> • OCT 2020 - OCT 2021</title>
             <html>
-                <ul>
-                    <li>Printing, plotting and related activities;</li>
-                    <li>Working long shifts;</li>
-                    <li>Customer service.</li>
-                </ul>
+                <p>Printer
+                    <ul>
+                        <li>Printing, plotting and related manual activities;</li>
+                        <li>Using desktop applications for image correction or transforming</li>
+                        <li>Working with bitmap, vector, binary and raster-graphic files</li>
+                        <li>Working long shifts;</li>
+                        <li>Customer service, focused on attending foreign clients, utilizing English language or cyrylic phonetics.</li>
+                    </ul>
+                </p>
             </html>
         </subsection>
         <subsection>
-            <title><img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' style='height: 22px; border: 3px solid white; border-radius: 5px'></img><b> Insurance agent at InterRisk TU S.A. VIG</b> JUN 2019 - OCT 2020</title>
+            <title><img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' class='logo-class'></img><b> InterRisk TU S.A. VIG</b> • JUN 2019 - OCT 2020</title>
             <html>
-                <ul>
-                    <li>Preparation and distribution of offers;</li>
-                    <li>Customer acquisition and service;</li>
-                    <li>Conclusion of insurance contracts</li>
-                </ul>
+                <p>Insurance agent
+                    <ul>
+                        <li>Licensed and registered by the KNF</li>
+                        <li>Preparation and distribution of offers, customer acquisition both in person and online</li>
+                        <li>Teaching insurance claim procedures including available online tools, providing help in individual claims</li>
+                        <li>Using geographic data for improved attendance to bussiness and government entities</li>
+                        <li>Managing small-scale base of clients, improving relations and customer satisfaction</li>
+                        <li>Conclusion of insurance contracts</li>
+                    </ul>
+                </p>
             </html>
         </subsection>
     </section>
     <section>
-        <title>Education</title>
+        <title>Education &amp; Certificates</title>
         <html> </html>
             <subsection>
-                <title><b>Public High school No. II in Opole</b> SEP 2016 - MAY 2019</title>
+                <title><img src='https://sep.com.pl//images/favicon/favicon-32x32.png' class='logo-class'></img><b> SEP E1 certificate</b> • valid MAR 2022 - MAR 2027</title>
+                <html>
+                    <p><b>Group 1.</b> Exploatation of equipment, installations and power networks that generate, transform, transmit and consume electricity:
+                        <ul>
+                            <li>Devices, installations and power networks with a voltage up to 1kV.</li>
+                            <li>Control and measurement apparatus as well as automatic regulation devices and installations; control and protection of devices and installations mentioned in the above point.</li>
+                        </ul>
+                    </p>
+                </html>
+            </subsection>
+            <subsection>
+                <title><img src='https://lo2.opole.pl/favicon.ico' class='logo-class'></img><b> Public High school No. II in Opole</b> • SEP 2016 - MAY 2019</title>
                 <html>
                     <ul>
                         <li>Maturity diploma with advanced maths, physics and English.</li>
@@ -68,18 +98,17 @@
     <section>
         <title>Languages</title>
         <html>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
         </html>
         <subsection>
-            <title>🇵🇱<b> Polish </b>Native</title>
+            <title>🇵🇱<b> Polish</b> • Native</title>
         </subsection>
         <subsection>
-            <title>🇬🇧<b> English </b>Advanced C1</title>
+            <title>🇬🇧<b> English</b> • Advanced C1+</title>
             <html>
                 <ul>
-                    <li>Fluent in speaking and writing;</li>
+                    <li>Fluent in speaking and excellent in writing;</li>
+                    <li>Language usage on a daily basis;</li>
                     <li>Advanced maturity exam: 98%;</li>
-                    <li>B2+ exam at SPNJO of Wrocław University, grade: A.</li>
                 </ul>
             </html>
         </subsection>
@@ -89,12 +118,126 @@
         <html>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
         </html>
+        <subsection>
+            <title>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class='logo-class'></img> 
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Bash_Logo_black_and_white_icon_only.svg" class="logo-class"></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="logo-class"></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" class="logo-class"></img>
+                 Scripting &amp; programming languages
+            </title>
+            <html>
+                <ul>
+                    <li>Python: factorization of incoming data, data processing and aggregation,</li>
+                    <li>Bash: Data pulling,</li>
+                    <li>JavaScript, TypeScript: blalbalblabla</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>Some tols</title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li><img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img>Graylog</li>
+                    <li><img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img> Postman</li>
+                    <li><img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>Grafana</li>
+                    <li>Elasticsearch</li>
+                    <li>Python: factorization of incoming data, data processing and aggregation,</li>
+                    <li>Bash Data pulling,</li>
+                    <li> familiarity with SSH, FTP, cron-jobs</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>
+                <img src="https://git-scm.com/favicon.ico" class='logo-class'></img>
+                <img src="https://www.github.com/favicon.ico" class='logo-class'></img>
+                <img src="https://www.gitlab.com/favicon.ico" class='logo-class'></img>
+                <img src="https://trello.com/favicon.ico" class='logo-class'></img>
+                 Workload management
+            </title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li><img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>Grafana</li>
+                    <li><b>Trello</b> Task distribution and progress reporting, deadline management, personal project management</li>
+                    <li>Version control: Git, GitHub, GitLab</li>
+                    <li>Utilizing webhooks for alerting</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>
+                <img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>
+                <img src="https://www.pingdom.com/favicon.ico" class='logo-class'></img>
+                <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" class='logo-class' ></img>
+                <img src="https://www.ks-soft.net/favicon.ico" class='logo-class'></img>
+                 Live monitoring
+            </title>
+            <html>
+                <ul>
+                    <li>Grafana</li>
+                    <li>Pingdom</li>
+                    <li>RCC Hostmonitor</li>
+                    <li>Utilizing webhooks for alerting</li>
+                    <li>StatusPage</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>Technical knowledge</title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li>Grafana</li>
+                    <li>Pingdom</li>
+                    <li>RCC Hostmonitor</li>
+                    <li>Utilizing webhooks for alerting</li>
+                    <li>StatusPage</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>Power tools / environments</title>
+            <html>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
+                <ul>
+                    <li><img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img>Graylog</li>
+                    <li>IDE: MS Visual Studio, VS Code</li>
+                    <li>GitHub Copilot</li>
+                    <li>MS Windows, Ubuntu WSL</li>
+                </ul>
+            </html>
+        </subsection>
     </section>
     <section>
         <title>Additional information</title>
         <html>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
         </html>
+        <subsection>
+            <title>Trivia</title>
+            <html>
+                <ul>
+                    <li>Travel, including hitch-hiking, good knowledge of the industry</li>
+                    <li>Sports: basketball, mountain hiking, assisted climbing and bouldering</li>
+                    <li>Interested in geopolitics and history, passive observer of the current world developments</li>
+                    <li>Took part in international exchange programs: Erasmus+ and Lions YCE</li>
+                    <li>Old photo, I'm bald now</li>
+                </ul>
+            </html>
+        </subsection>
+        <subsection>
+            <title>Traits</title>
+            <html>
+                <ul>
+                    <li>Accepting of mistakes</li>
+                    <li>Strong analytical thinking</li>
+                    <li>Willing to take the leader position in absence of hierarchy</li>
+                    <li>Able to understand abstract concepts</li>
+                </ul>
+            </html>
+        </subsection>
     </section>
     <section>
         <html>

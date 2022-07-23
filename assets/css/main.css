@@ -40,3 +40,10 @@ a:hover{
 .content-box{
     background-color: white;
 }
+
+.logo-class{
+    height: 22px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: white;
+}

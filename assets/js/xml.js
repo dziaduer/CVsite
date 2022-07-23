@@ -5,7 +5,7 @@ fetch('assets/content-en.xml').then((response) => {
         xmlContent = xml;
         let parser = new DOMParser();
         let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
-        let details = ['dob', 'phone', 'mail', 'website'];
+        let details = ['dob', 'phone', 'mail', 'website', 'residence', 'marital'];
         let name = "", surname = "";
         let profilesrc;
         let content = document.getElementById("content");
@@ -21,6 +21,7 @@ fetch('assets/content-en.xml').then((response) => {
             let img = document.createElement('img');
             img.src = profilesrc;
             img.className = "img-fluid rounded-circle my-3";
+            img.style.maxHeight = "250px";
             document.getElementById("profile").appendChild(img);
             console.log(profilesrc);
         }
@@ -71,6 +72,14 @@ fetch('assets/content-en.xml').then((response) => {
                             icon = 'globe';
                             link.href = node;
                             break;
+                        case 'residence':
+                            icon = 'geo-alt';
+                            header = "Place of residence:";
+                            break;
+                        case 'marital':
+                            icon = 'heart';
+                            header = "Marital status:";
+                            break;
                     }
                     link.href = '#';
                     link.onclick = ShowText('📋 Copied');
@@ -110,7 +119,9 @@ fetch('assets/content-en.xml').then((response) => {
                         break;
                     case 'title':
                         sectionContent.className = "collapse px-2";
-                        sectionButton.innerHTML = "<button type='button' class='btn btn-light w-100 color-theme'  data-bs-toggle='collapse' data-bs-target='#section" + i + "'><p class='h5 m-1 float-lg-start'>" + child.innerHTML + "</p>"
+                        sectionButton.innerHTML = "\
+                        <button type='button' class='btn btn-light w-100 color-theme'  data-bs-toggle='collapse' data-bs-target='#section" + i + "'>\
+                        <p class='h5 m-1 float-lg-start'>" + child.innerHTML + "</p>"
                         console.log("INTO Changed section title");
                         break;
                     case 'subsection':
@@ -135,7 +146,9 @@ fetch('assets/content-en.xml').then((response) => {
                                     subContent.appendChild(htmlContent);
                                     break;
                                 case 'title':
-                                    subButton.innerHTML = "<button type='button' class='btn btn-light btn-sm w-100 mb-2 color-theme' data-bs-toggle='collapse' data-bs-target='#subsection" + i + "-" + j + "'><p class='h6 m-1 float-lg-start'>" + subChild.innerHTML + "</p>"
+                                    subButton.innerHTML = "\
+                                    <button type='button' class='btn btn-light btn-sm w-100 mb-2 color-theme' data-bs-toggle='collapse' data-bs-target='#subsection" + i + "-" + j + "'>\
+                                    <p class='h6 m-1 float-lg-start'>" + subChild.innerHTML + "</p>"
                                     console.log("INFO Changed subsection title");
                                     break;
                             }
