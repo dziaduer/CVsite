@@ -25,20 +25,19 @@
                 <html>
                     <p>IT Service Desk Specialist
                         <ul>
-                            <li>Working night shifts &amp; long shift hours, remote or in office</li>
+                            <li>Working night shifts &amp; long shift hours, remote or stationary</li>
+                            <li>Complex client service and incident management under SLA's deadlines</li>
                             <li>Responsible for providing the 1st line of support for distributed applications</li>
                             <li>Live services monitoring, issue escalation accoring to available documentation, including past incidents</li>
-                            <li>Complex client service and incident management under SLA's deadlines</li>
-                            <li>Log files collection and root cause analysis</li>
-                            <li>Making Rest API request queries, </li>
-                            <li>Regression testing of web applications</li>
-                            <li>Meeting ITIL, PCI standards in software management</li>
-                            <li>Creating component tests, test procedure automation, webhook integration</li>
                             <li>Documentation: Writing instructions for newly implemented tools or new procedures, composing incident reports</li>
+                            <li>Domain knowledge: worked with major DMC providers, GDS providers, travel agencies</li>
+                            <li>Creating component tests, test procedure automation, webhook integration</li>
+                            <li>Meeting ITIL, PCI standards in software management</li>
+                            <li>Log files collection and root cause analysis</li>
+                            <li>Regression testing of web applications</li>    
                             <li>Working with static geographic data</li>
                             <li>Creating scripting tools for job automation, data aggregation and analysis</li>
                         </ul>
-                        Some other stuff        
                     </p>
                 </html>
         </subsection>
@@ -50,8 +49,8 @@
                         <li>Printing, plotting and related manual activities;</li>
                         <li>Using desktop applications for image correction or transforming</li>
                         <li>Working with bitmap, vector, binary and raster-graphic files</li>
-                        <li>Working long shifts</li>
                         <li>Customer service, focused on attending foreign clients, utilizing English language</li>
+                        <li>Long shift hours</li>
                     </ul>
                 </p>
             </html>
@@ -115,37 +114,21 @@
     </section>
     <section>
         <title>Technical skills and tools utilization</title>
-        <html>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
-        </html>
+        <html>    </html>
         <subsection>
             <title>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class='logo-class'></img> 
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Bash_Logo_black_and_white_icon_only.svg" class="logo-class"></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="logo-class"></img>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" class="logo-class"></img>
-                 Scripting &amp; programming languages
+
+                Scripting &amp; programming languages
             </title>
             <html>
                 <ul>
-                    <li>Python: factorization of incoming data, data processing and aggregation,</li>
-                    <li>Bash: Data pulling,</li>
-                    <li>JavaScript, TypeScript: blalbalblabla</li>
-                </ul>
-            </html>
-        </subsection>
-        <subsection>
-            <title>Some tols</title>
-            <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
-                <ul>
-                    <li><img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img>Graylog</li>
-                    <li><img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img> Postman</li>
-                    <li><img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>Grafana</li>
-                    <li>Elasticsearch</li>
-                    <li>Python: factorization of incoming data, data processing and aggregation,</li>
-                    <li>Bash Data pulling,</li>
-                    <li> familiarity with SSH, FTP, cron-jobs</li>
+                    <li>Python 3: data processing and aggregation, elasticsearch queries, webhooks, Rest API, SSH, design patterns, component tests, scraping, venv</li>
+                    <li>Bash: SSH, regex, basic scripts</li>
+                    <li>JavaScript, TypeScript: front-end, xml/json to html, basic logic implementation</li>
                 </ul>
             </html>
         </subsection>
@@ -154,16 +137,17 @@
                 <img src="https://git-scm.com/favicon.ico" class='logo-class'></img>
                 <img src="https://www.github.com/favicon.ico" class='logo-class'></img>
                 <img src="https://www.gitlab.com/favicon.ico" class='logo-class'></img>
+                <img src="https://www.atlassian.com/favicon.ico" class='logo-class'></img>
                 <img src="https://trello.com/favicon.ico" class='logo-class'></img>
+                <img src="https://a.slack-edge.com/cebaa/img/ico/favicon.ico" class='logo-class'></img>
                  Workload management
             </title>
             <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
                 <ul>
-                    <li><img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>Grafana</li>
-                    <li><b>Trello</b> Task distribution and progress reporting, deadline management, personal project management</li>
                     <li>Version control: Git, GitHub, GitLab</li>
-                    <li>Utilizing webhooks for alerting</li>
+                    <li>Atlassian: Jira, Confluence, StatusPage, Trello</li>
+                    <li>Ticketing: Redmine, Freshdesk</li>
+                    <li>Communication: Slack, Discord, Telegram, Teams</li>
                 </ul>
             </html>
         </subsection>
@@ -180,33 +164,31 @@
                     <li>Grafana</li>
                     <li>Pingdom</li>
                     <li>RCC Hostmonitor</li>
-                    <li>Utilizing webhooks for alerting</li>
                     <li>StatusPage</li>
                 </ul>
             </html>
         </subsection>
         <subsection>
-            <title>Technical knowledge</title>
+            <title>
+                <img src="https://code.visualstudio.com/favicon.ico" class='logo-class'></img>
+                <img src="https://www.microsoft.com/favicon.ico" class='logo-class'></img>
+                <img src="https://ubuntu.com/favicon.ico" class='logo-class'></img>
+                <img src="https://static.cdnlogo.com/logos/h/84/html.svg" class="logo-class"></img>
+                <img src="https://static.cdnlogo.com/logos/c/18/css.svg" class="logo-class"></img>
+                <img src="https://www.elastic.co/favicon.ico" class='logo-class'></img>
+                <img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img>
+                <img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img>
+                 Environments and other</title>
             <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
                 <ul>
-                    <li>Grafana</li>
-                    <li>Pingdom</li>
-                    <li>RCC Hostmonitor</li>
-                    <li>Utilizing webhooks for alerting</li>
-                    <li>StatusPage</li>
-                </ul>
-            </html>
-        </subsection>
-        <subsection>
-            <title>Power tools / environments</title>
-            <html>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, aspernatur rerum. Iste doloremque eos ea labore molestiae vitae quos voluptate animi voluptatem ex? Laudantium nobis excepturi explicabo, quod reprehenderit perspiciatis?</p>
-                <ul>
-                    <li><img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img>Graylog</li>
-                    <li>IDE: MS Visual Studio, VS Code</li>
-                    <li>GitHub Copilot</li>
-                    <li>MS Windows, Ubuntu WSL</li>
+                    <li>IDE: VS Code</li>
+                    <li>OS: Windows 10, Ubuntu WSL</li>
+                    <li>Web design: HTML 5, CSS 3, Bootstrap</li>
+                    <li>XML, Json, Markdown syntax</li>
+                    <li>Familiarity with FTP, cron-jobs</li>
+                    <li>Elasticsearch</li>
+                    <li>Postman</li>
+                    <li>Graylog</li>
                 </ul>
             </html>
         </subsection>
@@ -219,9 +201,9 @@
             <title>Trivia</title>
             <html>
                 <ul>
-                    <li>Travel, including hitch-hiking, good knowledge of the industry</li>
+                    <li>Interested in geopolitics and history</li>
+                    <li>Traveler, including hitch-hiking, fair knowledge of the industry</li>
                     <li>Sports: basketball, mountain hiking, assisted climbing and bouldering</li>
-                    <li>Interested in geopolitics and history, passive observer of the current world developments</li>
                     <li>Took part in international exchange programs: Erasmus+ and Lions YCE</li>
                     <li>Old photo, I'm bald now</li>
                 </ul>
@@ -231,10 +213,9 @@
             <title>Traits</title>
             <html>
                 <ul>
-                    <li>Accepting of mistakes</li>
                     <li>Strong analytical thinking</li>
-                    <li>Willing to take the leader position in absence of hierarchy</li>
-                    <li>Able to understand abstract concepts</li>
+                    <li>Open for new solutions</li>
+                    <li>Fast learner</li>
                 </ul>
             </html>
         </subsection>
@@ -243,13 +224,7 @@
         <html>
             <p><i>I hereby consent to my personal data
                 included in this CV being processed
-                for recruitment purposes by ANIXE
-                Polska sp. z o.o. having its registered
-                seat in Wrocław, at ul. Grabiszyńska
-                251A, 53-234 Wrocław (Poland) and
-                ANIXE Technology HELLAS Single
-                Member PC, 115 Kifisias Avenue,
-                115 24 (Greece).</i></p>
+                for recruitment purposes.</i></p>
         </html>
     </section>
 </page>
