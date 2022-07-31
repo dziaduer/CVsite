@@ -5,7 +5,7 @@ fetch('assets/content-en.xml').then((response) => {
         xmlContent = xml;
         let parser = new DOMParser();
         let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
-        let details = ['dob', 'phone', 'mail', 'website', 'residence', 'marital'];
+        let details = ['dob', 'phone', 'mail', 'website', 'residence', 'marital', 'languages'];
         let name = "", surname = "";
         let profilesrc;
         let content = document.getElementById("content");
@@ -45,7 +45,7 @@ fetch('assets/content-en.xml').then((response) => {
 
         details.forEach(element => {
             try {
-                let node = xmlDOM.getElementsByTagName(element)[0].childNodes[0].nodeValue;
+                let node = xmlDOM.getElementsByTagName(element)[0].innerHTML;
                 if (node.length > 0) {
                     let detail = document.createElement('div');
                     let icon;
@@ -79,6 +79,10 @@ fetch('assets/content-en.xml').then((response) => {
                         case 'marital':
                             icon = 'heart';
                             header = "Marital status:";
+                            break;
+                        case 'languages':
+                            icon = 'translate';
+                            header = "Languages:";
                             break;
                     }
                     link.href = '#';
@@ -118,10 +122,10 @@ fetch('assets/content-en.xml').then((response) => {
                         sectionContent.appendChild(htmlContent);
                         break;
                     case 'title':
-                        sectionContent.className = "collapse px-2";
+                        sectionContent.className = "collapse px-4";
                         sectionButton.innerHTML = "\
-                        <button type='button' class='btn btn-light w-100 color-theme'  data-bs-toggle='collapse' data-bs-target='#section" + i + "'>\
-                        <p class='h5 m-1 float-lg-start'>" + child.innerHTML + "</p>"
+                        <button type='button' class='btn btn-light w-100 color-theme btn-lg'  data-bs-toggle='collapse' data-bs-target='#section" + i + "'>\
+                        <p class='h5 m-1 float-lg-start'><b>" + child.innerHTML + "</b></p>"
                         console.log("INTO Changed section title");
                         break;
                     case 'subsection':

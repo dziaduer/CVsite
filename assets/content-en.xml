@@ -9,6 +9,7 @@
         <mail>tomasz.longin.bartnik@gmail.com</mail>
         <residence>Wrocław</residence>
         <marital>Single</marital>
+        <languages>🇵🇱 Polish: Native <br/>🇬🇧 English: C1+</languages>
     </person>
     <section>
         <title>Introduction</title>
@@ -21,7 +22,7 @@
        <html>
        </html>
         <subsection>
-                <title><img src='https://anixe.pl/images/logo_dark.svg' class='logo-class'  style='height: 20px; margin-bottom: 3px;'></img><b> ANIXE Sp. z o.o.</b> • OCT 2021 - TODAY</title>
+                <title><!--<img src='https://anixe.pl/images/logo_dark.svg' class='logo-class'  style='height: 20px; margin-bottom: 3px;'></img>--> ANIXE Sp. z o.o. • OCT 2021 - TODAY</title>
                 <html>
                     <p>IT Service Desk Specialist
                         <ul>
@@ -42,7 +43,7 @@
                 </html>
         </subsection>
         <subsection>
-            <title><img src='https://grunwald24.pl/wp-content/themes/grunwald24/static/gfx/logo.svg' class='logo-class'  style='margin-bottom: 3px;'></img><b> Grunwald24 S.C.</b> • OCT 2020 - OCT 2021</title>
+            <title><!--<img src='https://grunwald24.pl/wp-content/themes/grunwald24/static/gfx/logo.svg' class='logo-class'  style='margin-bottom: 3px;'></img>--> Grunwald24 S.C. • OCT 2020 - OCT 2021</title>
             <html>
                 <p>Printer
                     <ul>
@@ -56,7 +57,7 @@
             </html>
         </subsection>
         <subsection>
-            <title><img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' class='logo-class'></img><b> InterRisk TU S.A. VIG</b> • JUN 2019 - OCT 2020</title>
+            <title><!--<img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' class='logo-class'></img>--> InterRisk TU S.A. VIG • JUN 2019 - OCT 2020</title>
             <html>
                 <p>Insurance agent
                     <ul>
@@ -93,24 +94,6 @@
                     </ul>
                 </html>
             </subsection>
-    </section>
-    <section>
-        <title>Languages</title>
-        <html>
-        </html>
-        <subsection>
-            <title>🇵🇱<b> Polish</b> • Native</title>
-        </subsection>
-        <subsection>
-            <title>🇬🇧<b> English</b> • Advanced C1+</title>
-            <html>
-                <ul>
-                    <li>Fluent in speaking and excellent in writing;</li>
-                    <li>Language usage on a daily basis;</li>
-                    <li>Advanced maturity exam: 98%;</li>
-                </ul>
-            </html>
-        </subsection>
     </section>
     <section>
         <title>Technical skills and tools utilization</title>
