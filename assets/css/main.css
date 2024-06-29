@@ -7,13 +7,18 @@
     background-color: #ededed;
     color: #333333;
     */
-
+    
     background-color: #DDDDDD;
+    /*
+    background-color: white;
+    */
     color: #373d48;
 
 }
 button.color-theme{
     color: #373d48;
+    background-color: #DDDDDD;
+
     border-color: #DDDDDD;
 }
 button.color-theme:hover {
@@ -39,11 +44,17 @@ a:hover{
 }
 .content-box{
     background-color: white;
+    box-shadow: 0 0 0 0.25rem rgba(dd, dd, dd, 0.5);
+    border-color: #DDDDDD;
 }
 
 .logo-class{
     height: 22px;
     border: 3px solid white;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: white;
+}
+
+.header-box{
+    background-color: #373d48;
 }

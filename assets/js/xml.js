@@ -5,7 +5,7 @@ fetch('assets/content-en.xml').then((response) => {
         xmlContent = xml;
         let parser = new DOMParser();
         let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
-        let details = ['dob', 'phone', 'mail', 'website', 'residence', 'marital', 'languages'];
+        let details = ['dob', 'phone', 'mail',  'residence', 'marital', 'languages', 'stack', 'links',];
         let name = "", surname = "";
         let profilesrc;
         let content = document.getElementById("content");
@@ -18,12 +18,14 @@ fetch('assets/content-en.xml').then((response) => {
             //<img class="img-fluid rounded-circle my-3" src="assets/images/template.svg"/>
         }
         finally {
+            if (profilesrc != "assets/images/template.svg") {
             let img = document.createElement('img');
             img.src = profilesrc;
             img.className = "img-fluid rounded-circle my-3";
             img.style.maxHeight = "250px";
             document.getElementById("profile").appendChild(img);
             console.log(profilesrc);
+            }
         }
 
         try {
@@ -34,7 +36,7 @@ fetch('assets/content-en.xml').then((response) => {
         catch { console.log("ERROR Name not found!"); }
         finally {
             let fullname = document.createElement('p');
-            fullname.className = 'h2';
+            fullname.className = 'h2 my-2';
             fullname.style = 'font-weight: bold;';
             fullname.innerText = name + " " + surname;
             document.title = name + " " + surname;
@@ -50,7 +52,6 @@ fetch('assets/content-en.xml').then((response) => {
                     let detail = document.createElement('div');
                     let icon;
                     let header;
-                    let link = document.createElement('a');
                     switch (element) {
                         case 'dob':
                             icon = 'power';
@@ -63,14 +64,15 @@ fetch('assets/content-en.xml').then((response) => {
                         case 'mail':
                             icon = 'envelope';
                             header = "E-mail:";
+                            /*
                             if (node.length > 20) {
                                 node = node.split('@')[0] + "<br/>@" + node.split('@')[1];
                             }
+                                */
                             break;
-                        case 'website':
-                            header = "Website:";
+                        case 'links':
+                            header = "Links:";
                             icon = 'globe';
-                            link.href = node;
                             break;
                         case 'residence':
                             icon = 'geo-alt';
@@ -84,12 +86,13 @@ fetch('assets/content-en.xml').then((response) => {
                             icon = 'translate';
                             header = "Languages:";
                             break;
+                        case 'stack':
+                            icon = 'stack';
+                            header = "Tech stack:";
+                            break;
                     }
-                    link.href = '#';
-                    link.onclick = ShowText('📋 Copied');
                     detail.className = "p-0 my-4";
-                    link.innerHTML = "<p class='h5 mb-1' style='font-weight: bold;'><i class='bi bi-" + icon + " me-2'></i>" + header + "</p><p class='h5 text-break'>" + node + "</p>";
-                    detail.appendChild(link);
+                    detail.innerHTML = "<p class='h5 mb-1' style='font-weight: bold;'><i class='bi bi-" + icon + " me-2'></i>" + header + "</p>" + node;
                     document.getElementById("person").appendChild(detail);
                 }
             }
@@ -102,7 +105,7 @@ fetch('assets/content-en.xml').then((response) => {
         for (let sectionXML of sectionsXML) {
             let j = 0;
             let sectionBox = document.createElement('div');
-            sectionBox.className = "my-3 p-0 mx-xxl-5 rounded content-box";
+            sectionBox.className = "my-2 p-0 mx-xxl-1 rounded content-box";
             let children = sectionXML.childNodes;
 
             let sectionButton = document.createElement('div');
@@ -125,7 +128,7 @@ fetch('assets/content-en.xml').then((response) => {
                         sectionContent.className = "collapse px-4";
                         sectionButton.innerHTML = "\
                         <button type='button' class='btn btn-light w-100 color-theme btn-lg'  data-bs-toggle='collapse' data-bs-target='#section" + i + "'>\
-                        <p class='h5 m-1 float-lg-start'><b>" + child.innerHTML + "</b></p>"
+                        <p class='h5 m-1 float-start'><b>" + child.innerHTML + "</b></p>"
                         console.log("INTO Changed section title");
                         break;
                     case 'subsection':
@@ -152,7 +155,7 @@ fetch('assets/content-en.xml').then((response) => {
                                 case 'title':
                                     subButton.innerHTML = "\
                                     <button type='button' class='btn btn-light btn-sm w-100 mb-2 color-theme' data-bs-toggle='collapse' data-bs-target='#subsection" + i + "-" + j + "'>\
-                                    <p class='h6 m-1 float-lg-start'>" + subChild.innerHTML + "</p>"
+                                    <p class='h6 m-1 float-start'>" + subChild.innerHTML + "</p>"
                                     console.log("INFO Changed subsection title");
                                     break;
                             }

@@ -1,213 +1,262 @@
 <?xml version="1.0"?>
 <page>
     <person>
-        <profile>assets/images/profile.jpg</profile>
+        <!--<profile>assets/images/profile.jpg</profile>-->
         <name>Tomasz</name>
         <surname>Bartnik</surname>
-        <dob>08 FEB 2000</dob>
-        <phone>+48 781 320 367</phone>
-        <mail>tomasz.longin.bartnik@gmail.com</mail>
-        <residence>Wrocław</residence>
-        <marital>Single</marital>
-        <languages>🇵🇱 Polish: Native <br/>🇬🇧 English: C1+</languages>
+        <!--<dob>08 FEB 2000</dob>-->
+        <links>
+            <a href="https://www.linkedin.com/in/tomasz-longin-bartnik/">
+                <p class='h5 text-break'>
+                    <img src="https://static.licdn.com/aero-v1/sc/h/5bukxbhy9xsil5mb7c2wulfbx" class='logo-class'></img>
+                    LinkedIn
+                </p>
+            </a>
+        </links>
+        <phone>
+            <p class='h5 text-break'>
+                +48 781 320 367
+            </p>
+        </phone>
+        <mail>
+            <p class='h5 text-break'>
+                tomasz.longin.bartnik@gmail.com
+            </p>
+        </mail>
+        <residence><p class='h5 text-break'>Wrocław</p></residence>
+        <!--<marital>Single</marital>-->
+        <languages>
+            <p class='h5 text-break'>
+                🇵🇱 Polish - <i>Native</i> <br />
+                🇬🇧 English - <i>Advanced C1+</i>
+            </p>
+        </languages>
+        <!--
+        <stack>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="logo-class"></img> Python ●●◌◌◌<br />
+            <img src="https://www.mongodb.com/favicon.ico" class="logo-class"></img> MongoDB ●●◌◌◌<br />
+            <img src="https://www.elastic.co/favicon.ico" class="logo-class"></img> Elasticsearch ●◌◌◌◌<br />
+            <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class="logo-class"></img> MySQL ●◌◌◌◌<br />
+            <img src="https://redis.io/favicon.ico" class="logo-class"></img> Redis ●◌◌◌◌<br />
+            <img src="https://www.docker.com/wp-content/uploads/2024/02/cropped-docker-logo-favicon-32x32.png" class='logo-class'></img> Docker ●◌◌◌◌<br />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="logo-class"></img> JavaScript ●◌◌◌◌<br />
+            <img src="https://static.cdnlogo.com/logos/h/84/html.svg" class="logo-class"></img> HTML 5 ●◌◌◌◌<br />
+            <img src="https://static.cdnlogo.com/logos/c/18/css.svg" class="logo-class"></img> CSS 3 ●◌◌◌◌<br />
+        </stack>
+        -->
+        
     </person>
     <section>
         <title>Introduction</title>
         <html>
-            <p>I believe experience is best gained through practice. Having joined the workforce right after graduation, I was trying to find a path best suited to my abilities. While I feel comfortable working in customer service, I have found my biggest strengths to be in the technical field. I'm looking for employment that will properly utilize my abilities and will allow for both professional and personal growth, appreciate innovation, and extra effort.</p>
+            <p style="text-align: justify;">
+                As a skilled professional in customer service and technical support, 
+                I excel in supporting SaaS applications and international clients.
+                I ensure product quality through testing, valuable feedback and effective collaboration with development teams. 
+                With a proven track record in resolving complex technical issues, 
+                I perform incident Root Cause Analysis (RCA), maintain documentation and develop tools for automation and data visualization. 
+                I am seeking a position as an L2 Technical Support Specialist or Subject Matter Expert (SME), 
+                where I can leverage my technical expertise to resolve challenging issues and drive innovative solutions.
+            </p>
         </html>
     </section>
     <section>
-       <title>Work Experience</title>
-       <html>
-       </html>
+        <title>Work Experience</title>
+        <html>
+        </html>
         <subsection>
-                <title><!--<img src='https://anixe.pl/images/logo_dark.svg' class='logo-class'  style='height: 20px; margin-bottom: 3px;'></img>--> ANIXE Sp. z o.o. • OCT 2021 - TODAY</title>
-                <html>
-                    <p>IT Service Desk Specialist
-                        <ul>
-                            <li>Working night shifts &amp; long shift hours, remote or stationary</li>
-                            <li>Complex client service and incident management under SLA's deadlines</li>
-                            <li>Responsible for providing the 1st line of support for distributed applications</li>
-                            <li>Live services monitoring, issue escalation accoring to available documentation, including past incidents</li>
-                            <li>Documentation: Writing instructions for newly implemented tools or new procedures, composing incident reports</li>
-                            <li>Domain knowledge: worked with major DMC providers, GDS providers, travel agencies</li>
-                            <li>Creating component tests, test procedure automation, webhook integration</li>
-                            <li>Meeting ITIL, PCI standards in software management</li>
-                            <li>Log files collection and root cause analysis</li>
-                            <li>Regression testing of web applications</li>    
-                            <li>Working with static geographic data</li>
-                            <li>Creating scripting tools for job automation, data aggregation and analysis</li>
-                        </ul>
-                    </p>
-                </html>
-        </subsection>
-        <subsection>
-            <title><!--<img src='https://grunwald24.pl/wp-content/themes/grunwald24/static/gfx/logo.svg' class='logo-class'  style='margin-bottom: 3px;'></img>--> Grunwald24 S.C. • OCT 2020 - OCT 2021</title>
+            <title><b>L2 Technical Support Specialist</b>
+                 </title>
             <html>
-                <p>Printer
+                <p>
+                    <img src='https://anixe.io/favicon.ico' class='logo-class'></img> ANIXE Sp. z o.o. • SEP 2022 - CURRENT • <i>Junior/Mid</i>
                     <ul>
-                        <li>Printing, plotting and related manual activities;</li>
-                        <li>Using desktop applications for image correction or transforming</li>
-                        <li>Working with bitmap, vector, binary and raster-graphic files</li>
-                        <li>Customer service, focused on attending foreign clients, utilizing English language</li>
-                        <li>Long shift hours</li>
-                    </ul>
-                </p>
-            </html>
-        </subsection>
-        <subsection>
-            <title><!--<img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' class='logo-class'></img>--> InterRisk TU S.A. VIG • JUN 2019 - OCT 2020</title>
-            <html>
-                <p>Insurance agent
-                    <ul>
-                        <li>Licensed and registered by the KNF</li>
-                        <li>Preparation and distribution of offers, customer acquisition both in person and online</li>
-                        <li>Teaching insurance claim procedures including available online tools, providing help in individual claims</li>
-                        <li>Using geographic data for improved attendance to business and government entities</li>
-                        <li>Managing a small-scale base of clients, improving relations and customer satisfaction</li>
-                        <li>Conclusion of insurance contracts</li>
-                    </ul>
-                </p>
-            </html>
-        </subsection>
-    </section>
-    <section>
-        <title>Education &amp; Certificates</title>
-        <html> </html>
-            <subsection>
-                <title><img src='https://sep.com.pl//images/favicon/favicon-32x32.png' class='logo-class'></img><b> SEP E1 certificate</b> • valid MAR 2022 - MAR 2027</title>
-                <html>
-                    <p><b>Group 1.</b> Exploatation of equipment, installations and power networks that generate, transform, transmit and consume electricity:
-                        <ul>
-                            <li>Devices, installations and power networks with a voltage up to 1kV.</li>
-                            <li>Control and measurement apparatus as well as automatic regulation devices and installations; control and protection of devices and installations mentioned in the above point.</li>
-                        </ul>
-                    </p>
-                </html>
-            </subsection>
-            <subsection>
-                <title><img src='https://lo2.opole.pl/favicon.ico' class='logo-class'></img><b> Public High school No. II in Opole</b> • SEP 2016 - MAY 2019</title>
-                <html>
-                    <ul>
-                        <li>Maturity diploma with advanced maths, physics and English.</li>
-                    </ul>
-                </html>
-            </subsection>
-    </section>
-    <section>
-        <title>Technical skills and tools utilization</title>
-        <html>    </html>
-        <subsection>
-            <title>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class='logo-class'></img> 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Bash_Logo_black_and_white_icon_only.svg" class="logo-class"></img>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="logo-class"></img>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" class="logo-class"></img>
+                    <li>Provide dedicated technical support for SaaS applications and international clients.</li>
+                    <li>Work in an agile team, participate in scrum ceremonies, create and maintain sprint tasks in Jira.</li>
+                    <li>Engage in the development process, provide feedback and suggestions for improvements, ensure the expected quality of the product.</li>
+                    <li>Analyze integration prospects, communicate with stakeholders, create integration documentation, estimate development efforts, and perform certification.</li>
+                    <li>Create component tests and monitoring of web services, processes, and integrations.</li>
+                    <li>Perform incident RCA, helping to identify and implement solutions.</li>
+                    <li>Work with legacy systems, create and maintain documentation for various processes, procedures, and integrations.</li>
+                    <li>Develop tools for automation, data aggregation, visualization, and analysis.</li>
+                </ul>
+            </p>
+        </html>
+    </subsection>
+    <subsection>
+        <title><b>L1 Technical Support Specialist</b>
+             </title>
+        <html>
+            <p>
+                <img src='https://anixe.io/favicon.ico' class='logo-class'></img> ANIXE Sp. z o.o. • OCT 2021 - SEP 2022 • <i>Junior</i>
+                <ul>
+                <li>Provided 1st line of support for SaaS applications and international clients.</li>
+                <li>Managed complex client service and incidents under SLA, meeting ITIL and PCI standards in software management.</li>
+                <li>Monitored live services and escalated issues according to available documentation, including past incidents.</li>
+                <li>Shared knowledge, created instructions for newly implemented tools or procedures, and composed incident reports.</li>
+                <li>Created automations, test procedures, and webhook integrations.</li>
+                <li>Performed regression testing of web applications and analyzed log files.</li>
+            </ul>
+        </p>
+    </html>
+</subsection>
+<subsection>
+    <title><b>Customer Service Representative</b>
+         </title>
+    <html>
+        <p><img src='https://grunwald24.pl/wp-content/uploads/2024/03/logo.png' class='logo-class'></img> Grunwald24 S.C. • OCT 2020 - SEP 2021
+            <ul>
+                
+                <li>Provided customer service with a focus on assisting international clients, operated various printing machines, and executed a range of tasks including image correction and transformation.</li>
+            </ul>
+        </p>
+    </html>
+</subsection>
+<subsection>
+    <title>
+        <b>Insurance Agent</b>
+         </title>
+    <html>
+        <p><img src='https://interrisk.pl/wp-content/uploads/2021/03/favicon.png' class='logo-class'></img> InterRisk TU S.A. VIG • JUN 2019 - SEP 2020
+            <ul>
+                <li>Prepared and distributed insurance offers, educated clients on insurance claim procedures, provided assistance with individual claims, and improved relations and customer satisfaction.</li>
+            </ul>
+        </p>
+    </html>
+</subsection>
+</section>
+<section>
+<title>Education <!--&amp; Certificates--></title>
+<html></html>
+<!--
+<subsection>
+    <title>
+        <b>Electric permissions</b> • valid MAR 2022 - MAR 2027</title>
+    <html>
+        <img src='https://sep.com.pl//images/favicon/favicon-32x32.png' class='logo-class'></img> SEP E1 certificate
+        <ul>
+            <li>
+                        Group 1 - Qualified to operate equipment, installations, and power networks
+                        that generate, transform, transmit, and consume electricity up to 1kV.
+            </li>
+        </ul>
+    </html>
+</subsection>
+-->
+<subsection>
+    <title>
+         <b>Maturity exam</b></title>
+    <html>
+        <img src='https://lo2.opole.pl/favicon.ico' class='logo-class'></img> Public High school No. II in Opole • SEP 2016 - MAY 2019
+        <!--
+        <ul>
+            <li>
+                        Maturity diploma with advanced maths, physics and English.
+            </li>
+        </ul>
+        -->
+    </html>
+</subsection>
+</section>
+<section>
+<title>Technical skills &amp; tools</title>
+<html></html>
+<subsection>
+    <title>
+                <b>Languages</b>
+    </title>
+    <html>
+        <ul>
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class='logo-class'></img> Python 3.10 - data processing and aggregation,
+                        data visualizations, API integrations, webhooks, Rest API, component tests
+                        and automation. <ul>
+                <li> Libraries: <img src="https://pandas.pydata.org/static/img/favicon.ico" class="logo-class"></img> Pandas, <img src="https://plotly.com/favicon.ico" class="logo-class"></img>
+                        Plotly, <img src="https://flask.palletsprojects.com/en/3.0.x/_static/shortcut-icon.png" class="logo-class"></img> Flask, </li>
+                <li> Tools: <img src="https://jupyter.org/favicon.ico" class="logo-class"></img> Jupyter, </li>
+            </ul>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="logo-class"></img> JavaScript, <img src="https://static.cdnlogo.com/logos/h/84/html.svg" class="logo-class"></img>
+                        HTML 5, <img src="https://static.cdnlogo.com/logos/c/18/css.svg" class="logo-class"></img> CSS 3 - basic responsive web design, basic
+                        front-end scripts. <ul>
+            <li> Frameworks: <img src="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png" class="logo-class"></img> Bootstrap </li>
+        </ul>
+    </li>
+    <li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" class="logo-class"></img>
+         Bash - basic scripts, regex.
+    </li>
+    <li>
+                        XML, Json, Markdown - syntax.
+    </li>
 
-                Scripting &amp; programming languages
-            </title>
-            <html>
-                <ul>
-                    <li>Python 3: data processing and aggregation, elasticsearch queries, webhooks, Rest API, SSH, design patterns, component tests, scraping, venv</li>
-                    <li>Bash: SSH, regex, basic scripts</li>
-                    <li>JavaScript, TypeScript: front-end, xml/json to html, basic logic implementation</li>
-                </ul>
-            </html>
-        </subsection>
-        <subsection>
-            <title>
-                <img src="https://git-scm.com/favicon.ico" class='logo-class'></img>
-                <img src="https://www.github.com/favicon.ico" class='logo-class'></img>
-                <img src="https://www.gitlab.com/favicon.ico" class='logo-class'></img>
-                <img src="https://www.atlassian.com/favicon.ico" class='logo-class'></img>
-                <img src="https://trello.com/favicon.ico" class='logo-class'></img>
-                <img src="https://a.slack-edge.com/cebaa/img/ico/favicon.ico" class='logo-class'></img>
-                 Workload management
-            </title>
-            <html>
-                <ul>
-                    <li>Version control: Git, GitHub, GitLab</li>
-                    <li>Atlassian: Jira, Confluence, StatusPage, Trello</li>
-                    <li>Ticketing: Redmine, Freshdesk</li>
-                    <li>Communication: Slack, Discord, Telegram, Teams</li>
-                </ul>
-            </html>
-        </subsection>
-        <subsection>
-            <title>
-                <img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>
-                <img src="https://www.pingdom.com/favicon.ico" class='logo-class'></img>
-                <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" class='logo-class' ></img>
-                <img src="https://www.ks-soft.net/favicon.ico" class='logo-class'></img>
-                 Live monitoring
-            </title>
-            <html>
-                <ul>
-                    <li>Grafana</li>
-                    <li>Pingdom</li>
-                    <li>RCC Hostmonitor</li>
-                    <li>StatusPage</li>
-                </ul>
-            </html>
-        </subsection>
-        <subsection>
-            <title>
-                <img src="https://code.visualstudio.com/favicon.ico" class='logo-class'></img>
-                <img src="https://www.microsoft.com/favicon.ico" class='logo-class'></img>
-                <img src="https://ubuntu.com/favicon.ico" class='logo-class'></img>
-                <img src="https://static.cdnlogo.com/logos/h/84/html.svg" class="logo-class"></img>
-                <img src="https://static.cdnlogo.com/logos/c/18/css.svg" class="logo-class"></img>
-                <img src="https://www.elastic.co/favicon.ico" class='logo-class'></img>
-                <img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img>
-                <img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img>
-                 Environments and other</title>
-            <html>
-                <ul>
-                    <li>IDE: VS Code</li>
-                    <li>OS: Windows 10, Ubuntu WSL</li>
-                    <li>Web design: HTML 5, CSS 3, Bootstrap</li>
-                    <li>XML, Json, Markdown syntax</li>
-                    <li>Familiarity with FTP, cron-jobs</li>
-                    <li>Elasticsearch</li>
-                    <li>Postman</li>
-                    <li>Graylog</li>
-                </ul>
-            </html>
-        </subsection>
-    </section>
-    <section>
-        <title>Additional information</title>
-        <html>
-        </html>
-        <subsection>
-            <title>Trivia</title>
-            <html>
-                <ul>
-                    <li>Interested in geopolitics and history</li>
-                    <li>Traveler, including hitch-hiking, fair knowledge of the industry</li>
-                    <li>Sports: basketball, mountain hiking, assisted climbing and bouldering</li>
-                    <li>Took part in international exchange programs: Erasmus+ and Lions YCE</li>
-                    <li>Old photo, I'm bald now</li>
-                </ul>
-            </html>
-        </subsection>
-        <subsection>
-            <title>Traits</title>
-            <html>
-                <ul>
-                    <li>Strong analytical thinking</li>
-                    <li>Open for new solutions</li>
-                    <li>Fast learner</li>
-                </ul>
-            </html>
-        </subsection>
-    </section>
-    <section>
-        <html>
-            <p><i>I hereby consent to my personal data
-                included in this CV being processed
-                for recruitment purposes.</i></p>
-        </html>
-    </section>
+</ul>
+</html>
+</subsection>
+<subsection>
+<title>
+<b>Tools</b>
+</title>
+<html>
+<ul>
+    <li>Version control: <img src="https://git-scm.com/favicon.ico" class='logo-class'></img> Git, <img src="https://www.github.com/favicon.ico" class='logo-class'></img>
+                        GitHub, <img src="https://www.gitlab.com/favicon.ico" class='logo-class'></img>
+                        GitLab, </li>
+    <li> Workload management: <img src="https://www.atlassian.com/favicon.ico" class='logo-class'></img> Atlassian suite - Jira, Confluence, StatusPage, <br /><img src="https://res.cdn.office.net/officehub/images/content/images/favicon_m365-31d62b976c.ico" class='logo-class'></img> MS Office 365 - Excel, </li>
+    <li>Ticketing: <img src="https://www.redmine.org/favicon.ico" class='logo-class'></img>
+                        Redmine, <img src="https://support.freshdesk.com/assets/misc/favicon.ico" class='logo-class'></img> Freshdesk,</li>
+    <li>Observability: <img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img> Graylog, <img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>
+                        Grafana, <img src="https://www.pingdom.com/favicon.ico" class='logo-class'></img>
+                        Pingdom, <img src="https://www.ks-soft.net/favicon.ico" class='logo-class'></img>
+                        RCC Hostmonitor, </li>
+    <li>API integrations: <img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img> Postman, <img src="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png" class='logo-class'></img> Swagger, </li>
+    <li>AI assistants: 
+         <img src="https://www.openai.com/favicon.ico" class='logo-class'></img> ChatGPT, 
+
+    </li>
+</ul>
+</html>
+</subsection>
+<subsection>
+<title>
+<b>Environments and other</b></title>
+<html>
+<ul>
+    <li>IDE: <img src="https://code.visualstudio.com/favicon.ico" class='logo-class'></img>
+                        VS Code,</li>
+    <li>OS: <img src="https://www.microsoft.com/favicon.ico" class='logo-class'></img> 
+                        Windows 10/11, <img src="https://ubuntu.com/static/favicons/COF-favicon-48x48.png" class='logo-class'></img> Ubuntu 22 WSL, </li>
+    <li> Virtualization: <img src="https://www.docker.com/wp-content/uploads/2024/02/cropped-docker-logo-favicon-32x32.png" class='logo-class'></img> Docker, docker-compose, venv, </li>
+    <li> Databases: <img src="https://www.mongodb.com/favicon.ico" class='logo-class'></img> MongoDB, <img src="https://redis.io/favicon.ico" class='logo-class'></img> Redis, <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class='logo-class'></img> MySQL, </li>
+    <li> Search engines: <img src="https://www.elastic.co/favicon.ico" class='logo-class'></img> Elasticsearch, </li>
+</ul>
+</html>
+</subsection>
+</section>
+<section>
+<title>Additional information</title>
+<html>
+<ul>
+<li>Notable traits include strong analytical thinking, fast learning abilities and high engagement.</li>
+<li>Participated in international exchange programs: Erasmus+ and Lions YCE.</li>
+<li>Enjoys sports such as basketball, mountain hiking and assisted climbing.</li>
+</ul>
+</html>
+</section>
+<section>
+<html>
+<p>
+<i>I hereby consent to my personal data
+                    included in this CV being processed
+                    for recruitment purposes (in accordance with the Act of August 29, 1997, on the Protection of Personal Data; consolidated text: Journal of Laws 2016, item 922)
+                </i>
+</p>
+                    
+                <p><i>
+                Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 29.08.1997 roku o ochronie danych osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922)
+                </i>
+</p>
+</html>
+</section>
 </page>
