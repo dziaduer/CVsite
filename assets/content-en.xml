@@ -69,7 +69,7 @@
                  </title>
             <html>
                 <p>
-                    <img src='https://anixe.io/favicon.ico' class='logo-class'></img> ANIXE Sp. z o.o. • SEP 2022 - CURRENT • <i>Junior/Mid</i>
+                    <img src='https://anixe.io/favicon.ico' class='logo-class'></img> ANIXE Sp. z o.o. • SEP 2022 - JUL 2024 • <i>Junior/Mid</i>
                     <ul>
                     <li>Provide dedicated technical support for SaaS applications and international clients.</li>
                     <li>Work in an agile team, participate in scrum ceremonies, create and maintain sprint tasks in Jira.</li>
@@ -168,9 +168,9 @@
     <html>
         <ul>
             <li>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class='logo-class'></img> Python 3.10 - data processing and aggregation,
-                        data visualizations, API integrations, webhooks, Rest API, component tests
-                        and automation. <ul>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class='logo-class'></img>
+                 Python 3.10 - data processing and aggregation, data visualizations, API integrations, webhooks, Rest API, component tests and automation. 
+                <ul>
                 <li> Libraries: <img src="https://pandas.pydata.org/static/img/favicon.ico" class="logo-class"></img> Pandas, <img src="https://plotly.com/favicon.ico" class="logo-class"></img>
                         Plotly, <img src="https://flask.palletsprojects.com/en/3.0.x/_static/shortcut-icon.png" class="logo-class"></img> Flask, </li>
                 <li> Tools: <img src="https://jupyter.org/favicon.ico" class="logo-class"></img> Jupyter, </li>
@@ -188,7 +188,7 @@
          Bash - basic scripts, regex.
     </li>
     <li>
-                        XML, Json, Markdown - syntax.
+                        XML, Json, Markdown
     </li>
 
 </ul>
@@ -200,20 +200,28 @@
 </title>
 <html>
 <ul>
-    <li>Version control: <img src="https://git-scm.com/favicon.ico" class='logo-class'></img> Git, <img src="https://www.github.com/favicon.ico" class='logo-class'></img>
-                        GitHub, <img src="https://www.gitlab.com/favicon.ico" class='logo-class'></img>
-                        GitLab, </li>
-    <li> Workload management: <img src="https://www.atlassian.com/favicon.ico" class='logo-class'></img> Atlassian suite - Jira, Confluence, StatusPage, <br /><img src="https://res.cdn.office.net/officehub/images/content/images/favicon_m365-31d62b976c.ico" class='logo-class'></img> MS Office 365 - Excel, </li>
-    <li>Ticketing: <img src="https://www.redmine.org/favicon.ico" class='logo-class'></img>
-                        Redmine, <img src="https://support.freshdesk.com/assets/misc/favicon.ico" class='logo-class'></img> Freshdesk,</li>
-    <li>Observability: <img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img> Graylog, <img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img>
-                        Grafana, <img src="https://www.pingdom.com/favicon.ico" class='logo-class'></img>
-                        Pingdom, <img src="https://www.ks-soft.net/favicon.ico" class='logo-class'></img>
-                        RCC Hostmonitor, </li>
-    <li>API integrations: <img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img> Postman, <img src="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png" class='logo-class'></img> Swagger, </li>
-    <li>AI assistants: 
-         <img src="https://www.openai.com/favicon.ico" class='logo-class'></img> ChatGPT, 
-
+    <li>
+        Workload management: 
+        <img src="https://git-scm.com/favicon.ico" class='logo-class'></img> Git, 
+        <img src="https://www.atlassian.com/favicon.ico" class='logo-class'></img> Atlassian suite - Jira, Confluence, StatusPage, 
+        <img src="https://res.cdn.office.net/officehub/images/content/images/favicon_m365-31d62b976c.ico" class='logo-class'></img> MS Office 365 - Excel, 
+    </li>
+    <li>
+        Ticketing:
+        <img src="https://www.redmine.org/favicon.ico" class='logo-class'></img> Redmine, 
+        <img src="https://support.freshdesk.com/assets/misc/favicon.ico" class='logo-class'></img> Freshdesk, 
+    </li>
+    <li>
+        Observability: 
+        <img src="https://assets-global.website-files.com/5e9fae47f9a5b161fc3f7024/5f22e9c92b7fda8599341ebd_favicon32.png" class='logo-class'></img> Graylog, 
+        <img src="https://grafana.com/static/assets/img/fav32.png" class='logo-class'></img> Grafana, 
+        <img src="https://www.pingdom.com/favicon.ico" class='logo-class'></img> Pingdom, 
+        <img src="https://www.ks-soft.net/favicon.ico" class='logo-class'></img> RCC Hostmonitor, 
+    </li>
+    <li>
+        API integrations: 
+        <img src="https://www.postman.com/_ar-assets/images/favicon-1-16.png" class='logo-class'></img> Postman, 
+        <img src="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png" class='logo-class'></img> Swagger, 
     </li>
 </ul>
 </html>
@@ -223,13 +231,30 @@
 <b>Environments and other</b></title>
 <html>
 <ul>
-    <li>IDE: <img src="https://code.visualstudio.com/favicon.ico" class='logo-class'></img>
-                        VS Code,</li>
-    <li>OS: <img src="https://www.microsoft.com/favicon.ico" class='logo-class'></img> 
-                        Windows 10/11, <img src="https://ubuntu.com/static/favicons/COF-favicon-48x48.png" class='logo-class'></img> Ubuntu 22 WSL, </li>
-    <li> Virtualization: <img src="https://www.docker.com/wp-content/uploads/2024/02/cropped-docker-logo-favicon-32x32.png" class='logo-class'></img> Docker, docker-compose, venv, </li>
-    <li> Databases: <img src="https://www.mongodb.com/favicon.ico" class='logo-class'></img> MongoDB, <img src="https://redis.io/favicon.ico" class='logo-class'></img> Redis, <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class='logo-class'></img> MySQL, </li>
-    <li> Search engines: <img src="https://www.elastic.co/favicon.ico" class='logo-class'></img> Elasticsearch, </li>
+    <li>
+        IDE: 
+        <img src="https://code.visualstudio.com/favicon.ico" class='logo-class'></img> VS Code,
+    </li>
+    <li>
+        OS: 
+        <img src="https://www.microsoft.com/favicon.ico" class='logo-class'></img> Windows 10/11, 
+        <img src="https://ubuntu.com/static/favicons/COF-favicon-48x48.png" class='logo-class'></img> Ubuntu 22 WSL, 
+    </li>
+    <li>
+        Devops: 
+        <img src="https://www.docker.com/wp-content/uploads/2024/02/cropped-docker-logo-favicon-32x32.png" class='logo-class'></img> Docker, docker-compose, 
+        <img src="https://www.gitlab.com/favicon.ico" class='logo-class'></img> GitLab CI/CD,
+    </li>
+    <li>
+        Databases: 
+        <img src="https://www.mongodb.com/favicon.ico" class='logo-class'></img> MongoDB, 
+        <img src="https://redis.io/favicon.ico" class='logo-class'></img> Redis, 
+        <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class='logo-class'></img> MySQL, 
+    </li>
+    <li>
+        Search engines: 
+        <img src="https://www.elastic.co/favicon.ico" class='logo-class'></img> Elasticsearch, 
+    </li>
 </ul>
 </html>
 </subsection>
